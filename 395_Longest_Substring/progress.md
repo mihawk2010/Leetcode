@@ -1,4 +1,9 @@
-## 2016/10/15 Update ##
+## 2016/10/15 Update 2 ##
+After learning from the discussion board, I test a recursion method that runs 23ms compared to 750ms brute force method. 
+The idead is to divide string s into substring by delimeter c where the number of c is less than k.
+I also copy a split function of s from [Evan Teran](http://stackoverflow.com/questions/236129/split-a-string-in-c)
+
+## 2016/10/15 Update 1 ##
 简单改进了暴搜程序，对于字符串s中出现最多和最少的字母的次数分别记为min_num, max_num 
 如果k > max_num, 直接返回0
 如果k <= min_num 直接返回s的长度
